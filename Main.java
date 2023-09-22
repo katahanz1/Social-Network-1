@@ -4,8 +4,12 @@ public class Main
     {
         MessagePost messagePost = new MessagePost("Jhon", "mensaje");
         PhotoPost photoPost = new PhotoPost("Jane", "Sunset.png", "Insipred sunset!");
-        messagePost.display();
-        photoPost.display();
+        
+        NewsFeed newsFeed = new NewsFeed();
+        newsFeed.addPost(messagePost);
+        newsFeed.addPost(photoPost);
+
+        newsFeed.show();
 
 
     }

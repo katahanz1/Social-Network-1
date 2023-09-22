@@ -6,7 +6,6 @@ public class PhotoPost extends Post
     public PhotoPost(String author, String filename, String caption)
     {
         super(author);
-        System.out.println("photoPost constructor...");
         this.filename = filename;
         this.caption = caption;
     }

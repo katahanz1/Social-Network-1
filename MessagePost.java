@@ -4,7 +4,6 @@ public class MessagePost extends Post{
     public MessagePost(String author, String text)
     {
         super(author);
-        System.out.println("message constructor");
         this.message = text;
     }
 
