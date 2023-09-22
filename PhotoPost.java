@@ -12,6 +12,7 @@ public class PhotoPost extends Post
 
     public void display()
     {
+        super.display();
         System.out.println("File name = " + filename + ", caption = " + caption);
 
     }
