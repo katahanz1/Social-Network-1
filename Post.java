@@ -66,6 +66,22 @@ public class Post
         }
     }
     
-    
+    public String toString()
+    {
+        String text = username + "\n" + timeString(); 
+        if(likes > 0)
+        {
+            text += likes + " people like this\n";
+        }
+        if(comments.isEmpty())
+        {
+            text += "No comments\n";
+        }
+        else{
+            text += comments.size() + " comments\n";
+        }
+        return text;
+        
+    }
 }
 

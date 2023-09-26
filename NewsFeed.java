@@ -17,8 +17,8 @@ public class NewsFeed
     {
         for(Post post : posts)
         {
-            post.display();
-            System.out.println();
+            //post.display();
+            System.out.println(post);
         }
     }
 }
